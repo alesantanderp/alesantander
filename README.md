@@ -4,20 +4,10 @@
 
 ## Contenido
 
-- [[Enlace](URL del proyecto)
-- [Cómo Ejecutar los Proyectos](#cómo-ejecutar-los-proyectos)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Contacto](#contacto)
+- ([Mi web personal](https://alesantander.com/))
+- [Enlace](URL del proyecto)
+- [Enlace](URL del proyecto)
+- [Enlace](URL del proyecto)
 
-## Proyectos Destacados
-
-### Proyecto 1: [Nombre del Proyecto]
-
-**Descripción:** Breve descripción del proyecto.  
-**Tecnologías:** Lista de tecnologías utilizadas.  
-**Enlace al proyecto:** [Enlace](URL del proyecto)  
-**Capturas de Pantalla:**  
-![Screenshot 1](ruta/a/imagen1.png)  
-![Screenshot 2](ruta/a/imagen2.png)
 
 
