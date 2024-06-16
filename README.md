@@ -4,7 +4,7 @@
 
 ## Contenido
 
-- ([Mi web personal](https://alesantander.com/))
+- [Mi web personal](https://alesantander.com/)
 - [Enlace](URL del proyecto)
 - [Enlace](URL del proyecto)
 - [Enlace](URL del proyecto)
