@@ -5,6 +5,7 @@
 ## Contenido
 
 - [Mi web personal](https://alesantander.com/)
+- [Audeamrs Piguet - La Vanguardia](https://www.lavanguardia.com/magazine/20240624/9722444/audemars-piguet-reloj-mujer-royal-oak-mini-brl.html)
 
 
 
