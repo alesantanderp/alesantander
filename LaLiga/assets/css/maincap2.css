@@ -1,0 +1,698 @@
+:root {
+  --black-txt:#00001B;
+  --red-color: #FF4B44;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0;
+    color: var(--black-txt);
+    font-family: 'Kanit', sans-serif;
+    /* overflow: hidden; */
+  }
+h1 {
+  font-size: 3.2vw;
+  font-weight: 300;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 1;
+}
+h2 {
+  font-size: 1.3vw;
+  font-weight: 300;
+  line-height: 1.2;
+}
+h3 {
+  font-weight: 800;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+}
+@media (max-width: 990px) {
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 2.9vw;
+  }
+}
+@media (max-width: 520px) {
+  h1 {
+    font-size: 7vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  h3 {
+    font-size: 6vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* ESPACIOS */
+.pt-4 {
+  padding-top: 40px!important;
+}
+.pt-3 {
+  padding-top: 30px!important;
+}
+.pb-1 {
+  padding-bottom: 10px!important;
+}
+.pb-3 {
+  padding-bottom: 30px!important;
+}
+.pb-4 {
+  padding-bottom: 40px!important;
+}
+.pl-1 {
+  padding-left: 10px!important;
+}
+.pr-1 {
+  padding-right: 10px!important;
+}
+.mt-1{
+  margin-top: 5px!important;
+}
+.mt-2{
+  margin-top: 10px!important;
+}
+.mt-4{
+  margin-top: 40px!important;
+}
+.mt-5{
+  margin-top: 50px!important;
+}
+.mb-4{
+  margin-bottom: 40px!important;
+}
+.links {
+  color: var(--red-color);
+  text-decoration: none;
+}
+.links:visited {
+  color: #7d14f4;
+}
+.links:hover {
+  width: 1px;
+  text-decoration:underline 1px;
+}
+.wow {
+  visibility: hidden;
+}
+
+/* estilos para que en LV se muestre el contenido sin margenes */
+.wallpaper-inverted-ad{
+  display: none!important;
+}
+
+.visual-article-free .col-12 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 0 !important;
+}
+.content-free-html {
+  margin:0 !important;
+}
+.container-fluid {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.visual__story--free .content-free-html {
+  margin: 0px !important;
+}
+.row>* {
+  padding-right: 0!important;
+  padding-left: 0!important;
+  margin-top: 0!important;
+}
+
+/* INICIO titular*/
+.rojo {
+  color: var(--red-color);
+}
+.contenedor-titulo {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+@media (max-width: 980px) {
+  .contenedor-titulo {
+    padding-bottom: 30px;
+  }
+}
+.marca-collab {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 14px;
+  color: var(--red-color);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.45px;
+}
+.claim-campana {
+  color: var(--red-color);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 17px; /* 106.25% */
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+}
+.titulares {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 990px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.titulares h2 {
+  max-width: 900px;
+}
+@media (max-width: 768px) {
+  .contenedor-titulo {
+    margin: 70px 0px 0px 0px;
+  }
+}
+
+/* VIDEO */
+.video-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-video {
+  position: relative;
+  width: calc(100% - 20px); /* Set width to screen size - 40px padding on both sides */
+  max-height: 100vh; /* Set max height to the screen size */
+  height: 0;
+  padding: 0 20px; /* Padding on left and right */
+  padding-bottom: 45%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.video-responsivo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* destacado 1 open */
+.container-destacado {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.column-destacado {
+  flex: 1;
+  width: 50%;
+  min-width: 200px; 
+  padding: 24px;
+}
+.full-width-image-destacado {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.svg-image {
+  width: 100%;
+  max-width: 100px; 
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.destacado1-txt {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* CUERPO */
+.contenedor-cuerpo-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+.cuerpo-txt {
+  max-width: 800px;
+}
+@media (max-width: 768px) {
+  .cuerpo-txt {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/*IMAGEN destacada 1*/
+.wrapper-img-destacado1 {
+  padding:0;
+  text-align: center;
+}
+.parallax-img-destacado1 {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-img-destacado1 {
+  background-image: url('https://brandedcontentgrupogodo.github.io/laliga-20240131-9509085/assets/img2/destacado-laliga-1.jpg');
+  /* background-image: url('https://brandedcontentgrupogodo.github.io/laliga1/cap1/assets/img/destacado-laliga-1.jpg'); */
+}
+@media (max-width: 550px) {
+  .parallax-img-destacado1 {
+      background-image: url(https://brandedcontentgrupogodo.github.io/laliga-20240131-9509085/assets/img2/destacado-laliga-1-mobile.jpg);
+  }
+}
+@media (max-width: 980px) {
+@supports (-webkit-touch-callout: none) {
+  .parallax-img-destacado1 {
+    background-attachment: scroll !important;
+  }
+}
+@supports not (-webkit-touch-callout: none) {
+  .parallax-img-destacado1 {
+    background-attachment: scroll !important;
+  }
+}
+}
+
+/* DESTACADO 2 */
+.red-text {
+  color: var(--red-color);
+  border-left: 5px solid var(--red-color);
+  border-right: 5px solid var(--red-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 40px auto;
+}
+.red-text p {
+font-size: 25px;
+text-align: center;
+line-height: 133%; /* 33.25px */
+letter-spacing: 0.875px;
+padding: 10px 30px;
+}
+@media (max-width: 550px) {
+  .red-text p {
+    padding: 10px;
+  }
+}
+
+/* CARDS SLIDER */
+.carousel-container {
+  height: auto;
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.carousel-wrapper {
+  display: flex;
+}
+.slide {
+  height: 450px;
+  width: 100%;
+  padding: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  border: 1px solid var(--red-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+}
+.number {
+  font-size: 96px;
+  font-weight: 200;
+  color: var(--red-color);
+}
+.paragraph {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1200px) {
+  .slide {
+    flex: 0 0 30%; /* Adjusted to show a third of the third slide */
+  }
+}
+@media (max-width: 550px) {
+  section .carousel-container {
+    height: auto;
+  }
+  .carousel-wrapper{
+    flex-direction: column;
+  }
+  .slide {
+    margin-left: 0;;
+  }
+}
+
+
+/* CUERPO DOS COLUMNAS */
+.contenedor-cuerpo-txt-columnas {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1100px;
+  text-align: center;
+  margin: auto;
+}
+.container-two-columns {
+  display: flex;
+  flex-direction: row;
+}
+.container-two-columns h3 {
+  font-size: 34px;
+  margin-top: 16px;
+  padding-right: 50px;
+  text-align: left;
+  padding-left: 20px;
+  border-left: 7px solid var(--red-color);
+  max-height: 120px;
+}
+.container-two-columns p {
+  text-align: left;
+}
+.parrafo-2 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 550px) {
+  .parrafo-2 p {
+    padding-top: 110px;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-cuerpo-txt-columnas {
+    margin: 0;
+  }
+  .container-two-columns {
+    flex-direction: column;
+    padding-right: 0;
+    width: 100%;
+  }
+  .container-two-columns h3{
+    margin-top: 0;
+    padding-right: 0;
+  }
+  .parrafo-2 .cuerpo-txt {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1150px) {
+  .collage {
+    flex: 1; 
+    max-width: 400px; 
+  }
+  .parrafo-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+  
+}
+
+/* destacado 3 */
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url('https://brandedcontentgrupogodo.github.io/laliga-20240131-9509085/assets/img2/destacado-laliga-2.jpg');
+  /* background-image: url('https://brandedcontentgrupogodo.github.io/laliga1/cap1/assets/img/destacado-laliga-2.jpg');  */
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  text-align: left;
+  transform: translateY(-50%);
+}
+.white-text {
+  color: white;
+  padding: 50px;
+  text-shadow: 0px 4px 8.1px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 128%; /* 32px */
+  letter-spacing: 0.875px;
+}
+@media (max-width: 550px) {
+  .background-image {
+    height:500px;
+  }
+}
+
+/* carrusel img */
+.carousel-container2, .carousel-wrapper2, .carousel-slide2, .carousel-navigation2, .nav-arrow2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel-container2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--black-txt); 
+  padding: 80px 0;
+}
+.carousel-wrapper2 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 10px;
+}
+.carousel-slide2 {
+  flex: 0 0 calc((100% - 40px) / 5);
+  width: 750px;
+  margin-right: 70px;
+}
+.carousel-slide2 img {
+  width: auto;
+  height: 474px;
+  object-fit: cover;
+  display: block;
+}
+.slide-text2 {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white !important;
+  text-align: center;
+}
+.carousel-navigation2 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.carousel-navigation2:hover {
+  cursor: pointer;
+}
+.prev-arrow2:hover, .next-arrow2:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.nav-arrow2 {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.prev-arrow2 {
+  transform: rotate(180deg); 
+  padding-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .carousel-slide2 {
+    flex: 0 0 calc(100% - 20px);
+    margin-right: 5px;
+  }
+  
+  .carousel-navigation2 {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .carousel-slide2 {
+    flex: 0 0 calc(100% - 20px);
+    margin-right: 5px;
+    width: 100%;
+  }
+  
+  .carousel-navigation2 {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+/* destacado txt 3 */
+.destacado-fondo-rojo {
+  padding: 10px;
+  background-color: var(--red-color);
+}
+.destacado-fondo-rojo p {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* destacado collage */
+.dest-collage {
+  width: 100%;
+  height: auto;
+  background-image: url('https://brandedcontentgrupogodo.github.io/laliga-20240131-9509085/assets/img2/fondo.jpg');
+  /* background-image: url('https://brandedcontentgrupogodo.github.io/laliga1/cap1/assets/img/fondo-collage.jpg');  */
+  background-size: cover;
+  background-position: center;
+}
+.collage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+.collage img {
+  width: fit-content;
+}
+.dest-collage h3{
+border: 0;
+padding-left: 0;
+font-weight: 300;
+text-transform: none;
+color: white!important;
+}
+.dest-collage p{
+  font-weight: 300;
+  color: white!important;
+}
+@media (max-width: 768px) {
+  .collage {
+    align-items: center;
+    padding-right: 0;
+    width: 100%;
+  }
+  .collage img {
+    max-width: 100%;
+    height: auto;
+  }
+  .dest-collage h3{
+    font-size: 42px;
+  }
+}
+
+/* LALIGA */
+.laliga-logo {
+  max-width: 250px;
+  text-align: center;
+  margin: auto;
+}
+
+/* QUALIFIO */
+.iframeQualifio{
+  display:flex;
+  justify-content:center;
+  -webkit-justify-content:center;
+  -ms-justify-content:center;
+  -moz-justify-content:center;
+  -o-justify-content:center;
+  align-items:center;
+  -webkit-align-items:center;
+  -ms-align-items:center;
+  -moz-align-items:center;
+  -o-align-items:center;
+  width:100%;
+  margin-top:3rem;
+  min-height:670px;
+}
+  .iframeQualifio iframe{
+    width:100%;
+    height:100%;
+    min-height:550px !important;
+    border: 1px solid var(--red-color)!important;
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+  .iframeQualifio span {
+    font-style:normal;
+    font-weight:400;
+    font-size:28px;
+    line-height:33px;
+    color:#000;
+  }
+.iframeQualifio{
+  min-height:550px;
+}
+.iframeQualifio iframe{
+  min-height:550px;
+}
+.iframeQualifio span{
+  font-size:96px;
+  line-height:114px;
+}
+
+/*CRÉDITOS*/
+.authorship-f {
+  color: rgba(66, 78, 94, 0.43);
+  font-size:0.8em;
+  text-align:center;
+  padding:16px 0;
+}
+.d-inline-block-f {
+  display: inline-block!important;
+}
+.container-fluid-f {
+padding-right: 20px;
+padding-left: 20px;
+margin-right: auto;
+margin-left: auto;
+border-top: 1px solid rgba(66, 78, 94, 0.43);
+}
+@media (min-width: 768px) {
+.container-fluid-f {
+padding-right: 24px;
+padding-left: 24px;
+}
+}
+.creditos {
+  font-size:1.6em;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.container-fluid-f {
+  width: calc(100% - 40px);
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 980px
+}
